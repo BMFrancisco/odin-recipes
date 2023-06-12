@@ -1,6 +1,12 @@
 body { 
-    background-color: #fca645;
+    background-color: black;
+    padding: 15px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    background-color: #fca645;
+    padding: 20px;
 }
 
 a {
@@ -8,19 +14,32 @@ a {
     font-size: 20px;
 }
 
+
 h1 {
+    display: block;
     text-align: center;
+    margin: 30px 400px;
+    border: 15px solid black;
+    padding: 20px;
 }
 
 h6 {
-    color: hwb(0 19% 81%);
+    color: hwb(0 19% 81%);  
+    text-align: center;  
 }
 
-.ingredients,h2,h3 {
+.foto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 20px solid black;
+}
+
+.ingredients, h3{
     color: hsl(0, 1%, 38%);
 }
 
 .steps {
     font-size: 18px;
-    color: hwb(0 19% 81%);
+    color: hwb(0 14% 85%);
 }
